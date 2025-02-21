@@ -1,8 +1,9 @@
 function playGame(){
+
 function getComputerChoice(){
-const computerChoice = Math.floor(Math.random()* 3);
-const options = ["ROCK", "PAPER", "SCISSORS"];
-return options[computerChoice];
+    const computerChoice = Math.floor(Math.random()* 3);
+    const options = ["ROCK", "PAPER", "SCISSORS"];
+    return options[computerChoice];
 } // GETS COMPUTER CHOICE
 
 function getHumanOption(){
@@ -14,6 +15,7 @@ function getHumanOption(){
         return getHumanOption()
     } 
 } // GETS HUMAN OPTION IF VALID
+
 let humanScore = 0;
 let computerScore = 0;
 
@@ -49,5 +51,5 @@ if (humanScore > computerScore){
     alert(`It's a tie! You both won ${humanScore} out of 5 rounds!`)
 } else {
     alert(`Computer won ${computerScore} out of 5 rounds, you lose!`)
-}
+    }
 }
