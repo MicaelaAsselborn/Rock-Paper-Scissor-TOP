@@ -38,6 +38,7 @@ function playRound(humanChoice, computerChoice){
     }
 };
 
+// WHOLE GAME (5 ROUNDS)
 for (let i = 0; i < 5; i++){
     playRound(getHumanOption(), getComputerChoice());
 }

@@ -1,0 +1,13 @@
+body{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+button{
+    width: 40%;
+    height: 5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
